@@ -11,7 +11,7 @@
         android:id="@+id/productTypeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Product Type"
+        android:hint="@string/product_type"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@id/totalTextView"
         app:layout_constraintEnd_toStartOf="@id/managerBtn"
@@ -28,13 +28,13 @@
         app:layout_constraintStart_toEndOf="@id/productTypeTextView"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="24sp"
-        android:text="MANAGER" />
+        android:text="@string/manager" />
     <TextView
         android:id="@+id/totalTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:hint="Total"
+        android:hint="@string/total"
         android:gravity="right"
         app:layout_constraintBottom_toTopOf="@id/guidelineTop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,7 +188,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:hint="Quantity"
+        android:hint="@string/quantity"
         android:gravity="left"
         app:layout_constraintBottom_toTopOf="@id/listView"
         app:layout_constraintEnd_toEndOf="parent"

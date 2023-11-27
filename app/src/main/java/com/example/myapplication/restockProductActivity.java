@@ -42,7 +42,7 @@ public class restockProductActivity extends AppCompatActivity {
               //  Double costOfItemSelected = appStockListClicked.getUnitPrice();
                 Log.d("testing", "in QuntyOfSelectedItemInStock restock "+QuntyOfSelectedItemInStock);
                 listClicked=true;
-                parent.getChildAt(position).setBackgroundColor(getColor(R.color.red));
+            //    parent.getChildAt(position).setBackgroundColor(getColor(R.color.red));
              //   if(row >= 0){ parent.getChildAt(row).setBackgroundColor(getColor(R.color.white));
                 //   } parent.getChildAt(position).setBackgroundColor(getColor(R.color.Pink));
                 //   row = position;

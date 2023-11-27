@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Assignment_2</string>
+    <string name="history_detail">History Detail</string>
+    <string name="product_type">Product Type</string>
+    <string name="total">Total</string>
+    <string name="quantity">Quantity</string>
+    <string name="manager">MANAGER</string>
+    <string name="history">History</string>
+    <string name="restock">Restock</string>
+    <string name="enter_new_quantity">Enter New Quantity</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="item_name">Item Name</string>
+    <string name="cost">Cost</string>
+    <string name="quantity_available">Quantity Available</string>
 </resources>

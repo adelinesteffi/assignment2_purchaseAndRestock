@@ -9,7 +9,7 @@
         android:id="@+id/newQntyTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter New Quantity"
+        android:hint="@string/enter_new_quantity"
         android:textSize="24sp"
         android:inputType="number"
         android:digits="0123456789"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/newQntyTextView"
         android:textSize="24sp"
-        android:text="OK" />
+        android:text="@string/ok" />
 
     <Button
         android:id="@+id/cancelBtn"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toEndOf="@id/okBtn"
         app:layout_constraintTop_toBottomOf="@id/newQntyTextView"
         android:textSize="24sp"
-        android:text="CANCEL" />
+        android:text="@string/cancel" />
 
     <!-- Horizontal guideline for top -->
     <androidx.constraintlayout.widget.Guideline

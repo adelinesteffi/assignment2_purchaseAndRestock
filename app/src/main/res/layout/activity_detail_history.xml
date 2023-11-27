@@ -10,7 +10,7 @@
         android:id="@+id/HistoryDetailedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="History Detail"
+        android:hint="@string/history_detail"
         android:textSize="24sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"

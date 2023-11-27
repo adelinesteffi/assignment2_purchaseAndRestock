@@ -89,7 +89,7 @@ ListView ItemList;
                     Log.d("testing", "in onItemClick");
                     productText.setText(ProuctTypeToDisplay);
                     listClicked=true;
-                    parent.getChildAt(position).setBackgroundColor(getColor(R.color.red));
+                  //  parent.getChildAt(position).setBackgroundColor(getColor(R.color.red));
                 }
             });
         } catch (NullPointerException e) {
